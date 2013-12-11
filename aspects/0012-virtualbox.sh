@@ -2,8 +2,8 @@
 apt-get install -qq -y virtualbox
 
 file="Oracle_VM_VirtualBox_Extension_Pack-4.1.28-89849.vbox-extpack"
-wget -q -O "./${file}" "http://download.virtualbox.org/virtualbox/4.1.28/${file}"
-fullfile=$(readlink -f ./${file})
+wget -q -O "/tmp/${file}" "http://download.virtualbox.org/virtualbox/4.1.28/${file}"
+fullfile=$(readlink -f /tmp/${file})
 echo """
 Installing extension pack
 -------------------------
