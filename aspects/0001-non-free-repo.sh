@@ -1,5 +1,5 @@
 #!/bin/sh
-if [[ $USER != 'root' ]]
+if [ $USER != 'root' ]
 then
   echo 'You have to be root to run this aspect'
   exit 1

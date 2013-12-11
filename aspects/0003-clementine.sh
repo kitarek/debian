@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install clementine
+apt-get install -qq -y clementine

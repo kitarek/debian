@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install xbmc
+apt-get install -qq -y xbmc

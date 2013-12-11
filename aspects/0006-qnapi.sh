@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install qnapi
+apt-get install -qq -y qnapi

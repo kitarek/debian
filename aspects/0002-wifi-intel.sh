@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install firmware-iwlwifi
+apt-get install -qq -y firmware-iwlwifi
